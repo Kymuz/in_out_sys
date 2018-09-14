@@ -1,0 +1,371 @@
+body    {     margin:0px;
+               background-image: url("images/banner3.jpg");
+                background-size: cover;
+                background-position: center center;
+/*for rtl arabic postion*/
+text-align: right;
+
+   }
+
+   h1{
+       position: absolute;
+       right: 570px;
+       top: 0px;
+       font-family: Arial Black;
+
+   }
+
+     .logo {
+               width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 0px;
+                left: 2%;
+            
+               
+
+  } 
+
+
+  .logo img {
+                width: 160px;
+                height: 160px;
+  }
+
+       iframe{width: 70%;
+          height: 63%;
+          background: rgba(255,255,255,.3);
+          
+          position: absolute;
+          left:17%;
+          top: 36%;}    
+
+
+.menue {
+        width: 100%;
+         /* height: 60%;*/
+         margin:auto;
+         /*edite some things height */
+         height:auto;
+         display: inline-table;
+        
+}
+
+
+.menue   ul {
+        list-style-type:none;
+        margin-top: 67px;
+        
+        
+}
+
+  .menue  ul li{ 
+                width:160px; 
+                height:50px;            
+                text-align:center; 
+                border-top:2px solid #ffffff;
+                border-radius: 25px;
+                color:white;
+                 font-size:18px; 
+                 font-family:Arial;
+                 line-height:50px;
+                 margin-top: 10px;
+                 margin-right: 5px;
+                 float: right;
+               }
+  .menue ul li:hover{
+           background-color:#3498DB ;
+                 
+
+  }             
+
+  .menue  ul li a{
+               text-decoration: none;
+               color: white;
+               text-align:center;
+  }
+
+    .menue ul li ul{ visibility:hidden;
+                      margin-top:0px;
+                     margin-right: 8px;}
+
+
+
+          .menue ul li:hover ul{ visibility:visible;
+                                 
+                               }
+
+           .menue ul li ul li { width:130px;
+                               height:50px;
+                                border-top:none;
+                               border-bottom:2px solid #ffffff;
+                               margin-top: 0px;
+
+           }
+
+             .menue ul li ul li:hover{background-color:#85C1E9;}
+           .menue ul li ul li a{ color:white; text-align:center; text-decoration:none}
+
+
+
+
+
+           .mainContent{
+            background-color: #ffffff7d;
+            scroll-behavior: auto;
+            width: 100%;
+            margin: auto;
+            margin-top: 150px;
+            height: 425px;
+            overflow-y: scroll;
+            border-radius: 10px;
+            padding: 25px 0;
+        
+        
+           }
+           label{
+            font-family: 'Cairo', sans-serif;
+
+           }
+           .effect3{
+            -moz-box-shadow: 0px 10px 14px -7px #276873 ;
+            -webkit-box-shadow: 0px 10px 14px -7px #276873 ;
+            box-shadow: 0px 10px 14px -7px #276873 ;
+            background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2ab5e6 ), color-stop(1, #0094d5 ));
+            background:-moz-linear-gradient(top, #2ab5e6  5%, #0094d5  100%);
+            background:-webkit-linear-gradient(top, #2ab5e6  5%, #0094d5  100%);
+            background:-o-linear-gradient(top, #2ab5e6  5%, #0094d5  100%);
+            background:-ms-linear-gradient(top, #2ab5e6  5%, #0094d5  100%);
+            background:linear-gradient(to bottom, #2ab5e6  5%, #0094d5  100%);
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+            background-color:#276873 ;
+            -moz-border-radius:8px;
+            -webkit-border-radius:8px;
+            border-radius:8px;
+            display:inline-block;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:20px;
+            font-weight:bold;
+            padding:13px 32px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #3d768a;
+          }
+
+                     .form-control {
+             text-align: right
+           }
+           .myCheck{
+             width: 20px;
+             height: 20px;
+           }
+           .myLabel{
+            position: absolute;
+            margin-top: -3px;
+            margin-left: -55px;
+           }
+           .mainContent .btn{
+            padding: 10px 70px;
+            border-bottom: 5px solid #04478e;
+           }
+           .mainContent .btn:hover{
+           }
+           /*selected box*/
+           .selectItems, .selectItems2, .selectItems3 {
+            padding: 0 35% !important;
+            display: none;
+           }
+           .selectItems label{
+             float: right;
+           }
+           .k-containerNumber{
+            font-size: 25px;
+            text-align: center;
+        
+           }
+           .naval, .summNaval, .transportNaval{
+             display: none;
+           }
+           .air , .summAir, .transportingAir{
+            display: none;
+          }
+           .standar, .standar2,.standar3{
+            display: none;
+          }
+.dcases, .dcases2{
+    display: none;
+}
+           
+/* operation page*/
+.mySearch .form-control-borderless {
+    border: none;
+}
+
+.mySearch .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.mySearch .btn{
+    border-bottom: none;
+    background: linear-gradient(39deg, #04B8E6 19%, #4966ae 96%);
+padding: 7px 20px
+}
+.thead-khaled{
+        background: linear-gradient(39deg, #04B8E6 19%, #4966ae 96%);
+    color: #fff;
+}
+.operationTable{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px
+}
+/*تلخيص */
+.add-icon{
+    background-color: #0c3887;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    border-radius: 50%;
+    padding: inherit;
+    margin-right: 40px;
+    box-shadow: 2px 3px 3px #3a3a3a;
+cursor: pointer
+}
+.add-icon i{
+ margin-top: -10px
+}
+
+
+.pop #login-modal .modal-dialog {
+    width: 350px;
+}
+
+.pop #login-modal input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+
+.pop #div-login-msg,
+.pop #div-lost-msg,
+.pop #div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+
+.pop #div-login-msg.success,
+.pop #div-lost-msg.success,
+.pop #div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+
+.pop #div-login-msg.error,
+.pop #div-lost-msg.error,
+.pop #div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+
+.pop #icon-login-msg,
+.pop #icon-lost-msg,
+.pop #icon-register-msg {
+    width: 30px;
+    float: right;
+    text-align: center;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+    margin-top: 8px;}
+
+.pop #icon-login-msg.success,
+.pop #icon-lost-msg.success,
+.pop #icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+
+.pop #icon-login-msg.error,
+.pop #icon-lost-msg.error,
+.pop #icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+
+.pop #img_logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+.pop .modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+
+.pop .modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+
+.pop .modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+
+.pop .modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+
+.pop .modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    border-top: 0px;
+}
+
+.pop .checkbox {
+    margin-bottom: 0px;
+}
+
+.pop .btn {
+    border-radius: 0px;
+}
+
+.pop .btn:focus,
+.pop .btn:active:focus,
+.pop .btn.active:focus,
+.pop .btn.focus,
+.pop .btn:active.focus,
+.pop .btn.active.focus {
+    outline: none;
+}
+
+.pop .btn-lg, .btn-group-lg>.btn {
+    border-radius: 0px;
+}
+
+.pop .btn-link {
+    padding: 5px 10px 0px 0px;
+    color: #95a5a6;
+}
+
+.pop .btn-link:hover, .btn-link:focus {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.pop .glyphicon {
+    top: 0px;
+}
+
+.pop.form-control {
+  border-radius: 0px;
+}
